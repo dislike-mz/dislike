@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../sass/dist/register.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- 注册顶部导航部分 -->
+        <div class="head">
+            <span>Hi，</span><span class="User"></span><span>欢迎来到利群商城！</span><a href="">请登录</a>&nbsp;
+            <a href="">免费注册</a>
+            <div class="right">
+                <a href="">我的订单</a>
+                <a href=""><img src="../images/user.png" alt="">会员中心</a>
+                <a href="">客户服务<img src="../images/more.png" alt=""></a>
+                <a href=""><img src="../images/cellphone.png" alt="">手机利群</a>
+                <a href="">利群官网</a>
+                <span>关注利群 <img src="../images/QR-code.png" alt=""><img src="../images/rotate.png" alt=""><img
+                        src="../images/microblog.png" alt=""></span>
+            </div>
+
+        </div>
+
+        <!-- 内容 -->
+        <div class="content">
+            <img src="../images/logo.png" alt="">
+            <div class="C">
+
+                <div class="S">
+                    <input class="search" type="text" placeholder="不知道">
+                    <button>搜&nbsp;&nbsp;&nbsp;索</button>
+
+                </div>
+                <div class="hotS">
+                    <span>热门搜索:</span>
+                </div>
+            </div>
+
+
+            <div class="connection">
+                <span>去购物车结算</span>
+                <img src="../images/relation.png" alt="">
+            </div>
+        </div>
+
+        <!-- 主体 -->
+        <div class="main">
+            <form class="Form" action="../php/register.php" method="POST">
+                <span><i>* </i>账户名：</span><input id="UserName" type="text" placeholder="邮箱/用户名/手机号"><em class="iderorr"></em><br>
+                <span><i>* </i>请设置密码：</span><input id="PassWord" type="password"><br>
+                <span><i>* </i>请确认密码：</span><input id="again" type="password"><br>
+                <span><i>* </i>验证码：</span><span class="verification-code">验证码</span><br>
+                <input id="VC" type="text">
+                <span>看不清楚?</span><i>换一张</i><br>
+                <input id="CB" type="checkbox">我已阅读并同意<i>《利群商城条款》</i>
+                <br>
+                <button>立即注册</button>
+            </form>
+
+            <div class="nav">
+                <img src="../images/nav1.png" alt="">
+                <img src="../images/nav2.png" alt="">
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="foot">
+            <div class="rubbish">
+                <span>关于我们</span><span>联系我们</span><span>诚聘英才</span><span>手机利群</span><span>销售联盟</span><span>友情链接</span><span>网站合作</span><span>帮助中心</span><span>版权说明</span>
+            </div>
+            <div class="rubbish">
+                <span>利群集团</span><span>百货集团</span><span>利群网</span><span>利群酒店</span><span>利群房地产</span><span>利群旅行社</span><span>利群药品</span><span>利群影城</span><span>利群水站</span><span>利群家政</span><span>利群金卡</span>
+            </div>
+            <div class="rubbish">
+                鲁ICP证09054331号-2Copyright@2004-2012利群集团青岛电子商务有限公司版权所有<img src="../images/sign.png" alt=""></div>
+        </div>
+    </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
