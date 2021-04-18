@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 1536px;
+    background-color: #ffffff;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+
+.box {
+    width: 100%;
+
+    ul,
+    li {
+        list-style: none;
+    }
+
+}
+
+// 注册顶部导航样式
+.head {
+    width: 100%;
+    height: 21px;
+    margin-left: 120px;
+
+    span {
+        color: #8a779d;
+    }
+
+    a {
+        color: #333333
+    }
+
+    .right {
+        float: right;
+        margin-right: 200px;
+        height: 25px;
+
+        a {
+            padding-right: 10px;
+            margin-left: 10px;
+            line-height: 25px;
+            border-right: 1px solid #d3ccd3;
+
+
+        }
+
+        img {
+            vertical-align: middle;
+            margin-left: 65x;
+            margin-right: 5px;
+
+        }
+
+        span {
+            padding-right: 10px;
+            margin-left: 10px;
+            line-height: 25px;
+        }
+    }
+}
+
+// 内容
+.content {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 120px;
+
+    overflow: hidden;
+
+    img {
+        float: left;
+    }
+
+    .C {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 600px;
+        box-sizing: border-box;
+
+        .S {
+            width: 540px;
+            height: 40px;
+            margin-top: 15px;
+            margin-left: 25px;
+            padding: 4px;
+            box-sizing: border-box;
+            background-color: #fc595a;
+            float: left;
+
+            input {
+                width: 460px;
+                height: 32px;
+                padding: 0px 5px;
+                outline: none;
+                border: none;
+                box-sizing: border-box;
+            }
+
+            button {
+                width: 65px;
+                color: white;
+                outline: none;
+                cursor: pointer;
+                box-sizing: border-box;
+                background-color: #fc595a;
+                border: none;
+
+            }
+        }
+    }
+
+    .hotS {
+        float: left;
+        margin-top: 5px;
+        margin-left: 30px;
+        font-size: 16px;
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .connection {
+        width: 300px;
+        height: 84px;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 20px;
+
+        span {
+            background-color: #f7f7f7;
+            color: #616161;
+            padding: 5px 20px;
+
+        }
+    }
+}
+
+// 导航部分
+
+.nav {
+    width: 100%;
+    height: 35px;
+    margin-left: 120px;
+
+    // background-color: skyblue;
+
+    .leader {
+
+        width: 200px;
+        height: 100%;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        background-color: #b1191b;
+    }
+
+    .isolation {
+        float: left;
+
+        span {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            line-height: 35px;
+            cursor: pointer;
+        }
+
+        img {
+
+            margin-left: 40px;
+            vertical-align: middle;
+        }
+
+        .active {
+            color: #f13031;
+        }
+    }
+
+
+}
+
+.nav {
+    width: 100%;
+    height: 35px;
+    margin-left: 120px;
+
+    // background-color: skyblue;
+
+    .leader {
+
+        width: 200px;
+        height: 100%;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        background-color: #b1191b;
+    }
+
+    .isolation {
+        float: left;
+
+        span {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            line-height: 35px;
+            cursor: pointer;
+        }
+
+        img {
+
+            margin-left: 40px;
+            vertical-align: middle;
+        }
+
+        .active {
+            color: #f13031;
+        }
+    }
+
+
+}
+// 登录部份
+.enter{
+    width: 1000px;
+    height: 500px;
+    border: 1px #d3d3d3 solid;
+    margin: 10px 200px;
+    position: relative;
+
+    .baby{
+        position: absolute;
+        top: 80px;
+        left: 80px;
+    }
+    .verification{
+        width: 330px;
+        height: 265px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: 1px #d3d3d3 solid;
+        position: absolute; 
+        top: 100px;
+        right: 30px;  
+    }
+    span{
+        font-size: 18px;
+        color: #666666;
+        
+    }
+    span:nth-child(2){
+        float: right;
+        font-size: 14px;
+        line-height: 25px;
+        i{  display: inline-block;
+            width: 14px;
+            height: 14px;
+            color: white;
+            text-align: center;
+            line-height: 14px;
+            border-radius: 50%;
+            background-color: #e4373b;
+        }
+    }
+    span:nth-of-type(3){
+        font-size: 14px;
+        float: right;
+    }
+    span:nth-of-type(4){
+        color: #000000;
+        font-size: 14px;
+    }
+    span:nth-of-type(5),span:nth-of-type(6){
+        font-size: 14px;
+    }
+    .import{
+        width: 287px;
+        height: 40px;
+        margin: 10px 0px;
+        border: 1px #bdbdbd solid;
+        img{
+            height: 100%;
+            float: left;
+
+        }
+        input{
+            width: 235px;
+            height: 35px;
+            margin-top: 5px;
+            padding-left: 10px;
+            background-color: #faffbd;
+            border: none;
+            outline: none;
+            float: left;
+        }
+    }
+    .gogo{
+        width: 287px;
+        height: 40px;
+        font-size: 18px;
+        color:white;
+        background-color: #e4393c;
+        border: none;
+        margin: 10px 0px;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+// 服务部分
+.service{
+    width: 1200px;
+    height: 350px;
+    border: 1px #bdbdbd solid;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    .choice{
+        
+        width: 140px;
+        height: 100%;
+
+        .TopS{
+            color: #bebebe;
+            font-size: 18px;
+            padding-left: 10px;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            border-bottom:1px #e3e3e3 solid ;
+        }
+        p{
+            color: #929292;
+            padding-left: 15px;
+            span{
+                font-size: 30px;
+            }
+        }
+        img{
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+    }
+}
+// 插图
+.useless{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+// 底部
+.foot{
+    width: 1080px;
+    margin: 50px 165px;
+
+    .rubbish{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        span{
+            display: block;
+            padding: 0px 10px;
+            margin-bottom:20px ;
+            border-right:1px black solid ;
+        }
+
+        span:nth-last-of-type(1){
+            border: none;
+        }
+
+    }
+    .rubbish:nth-last-of-type(1){
+        color: #bdbdbd;
+        font-size: 14px;
+    }
+    }

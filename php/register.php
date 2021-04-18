@@ -5,47 +5,6 @@ $type = $_POST['usernametype'];
 
 $con = mysqli_connect('localhost', 'root', '123456', 'fristproject');
 
-// if ($username) {
-//     switch ($type) {
-//         case $type == "username":
-//             echo ("php username");
-//             $sql = "SELECT * FROM `user` WHERE `username` LIKE'$username' ";
-
-//             $selectRes = mysqli_query($con, $sql);
-
-//             $row = mysqli_fetch_assoc($selectRes);
-//             break;
-//         case $type == "telephone":
-//             echo ("php tel");
-//             $sql = "SELECT * FROM `user` WHERE `telephone` = $username ";
-
-//             $selectRes = mysqli_query($con, $sql);
-
-//             $row = mysqli_fetch_assoc($selectRes);
-//             break;
-//         case $type == "email":
-//             echo ("php email ");
-//             $sql = "SELECT * FROM `user` WHERE `email` LIKE'$username' ";
-//             echo($username);
-//             // echo($sql);
-//             $selectRes = mysqli_query($con, $sql);
-
-//             $row = mysqli_fetch_assoc($selectRes);
-//             break;
-//     }
-
-
-// $selectRes = mysqli_query($con, $sql);
-
-// $row = mysqli_fetch_assoc($selectRes);
-
-
-//     if ($row) {
-//         die("该用户已存在");
-//     };
-// }
-
-
 if ($username) {
 
     $sql = "SELECT * FROM `user` WHERE $type LIKE '$username' ";

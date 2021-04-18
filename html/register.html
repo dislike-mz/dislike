@@ -13,8 +13,8 @@
     <div class="box">
         <!-- 注册顶部导航部分 -->
         <div class="head">
-            <span>Hi，</span><span class="User"></span><span>欢迎来到利群商城！</span><a href="">请登录</a>&nbsp;
-            <a href="">免费注册</a>
+            <span>Hi，</span><span class="User"></span><span>欢迎来到利群商城！</span><a href="../html/login_in.html">请登录</a>&nbsp;
+            <a href="../html/register.html">免费注册</a>
             <div class="right">
                 <a href="">我的订单</a>
                 <a href=""><img src="../images/user.png" alt="">会员中心</a>
@@ -52,12 +52,13 @@
         <!-- 主体 -->
         <div class="main">
             <form class="Form" action="../php/register.php" method="POST">
-                <span><i>* </i>账户名：</span><input id="UserName" type="text" placeholder="邮箱/用户名/手机号"><em class="iderorr"></em><br>
-                <span><i>* </i>请设置密码：</span><input id="PassWord" type="password"><br>
-                <span><i>* </i>请确认密码：</span><input id="again" type="password"><br>
-                <span><i>* </i>验证码：</span><span class="verification-code">验证码</span><br>
-                <input id="VC" type="text">
-                <span>看不清楚?</span><i>换一张</i><br>
+                <span><i>* </i>账户名：</span><input id="UserName" type="text" placeholder="邮箱/用户名/手机号"><b
+                    class="iderorr"></b><br>
+                <span><i>* </i>请设置密码：</span><input id="PassWord" type="password" placeholder="6位到20位包含数字和字母"><b class="paserorr"></b><br>
+                <span><i>* </i>请确认密码：</span><input id="again" type="password"><b class="againerorr"></b><br>
+                <span><i>* </i>验证码：</span><span class="verification-code">点击开始认证</span><br>
+                <input id="VC" type="text"><b class="VCerorr">&nbsp;&nbsp;</b>
+                <span>看不清楚?</span><i class="change">换一张</i><br>
                 <input id="CB" type="checkbox">我已阅读并同意<i>《利群商城条款》</i>
                 <br>
                 <button>立即注册</button>

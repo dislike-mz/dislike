@@ -1,0 +1,383 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 1536px;
+  background-color: #ffffff;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.box {
+  width: 100%;
+}
+
+.box ul,
+.box li {
+  list-style: none;
+}
+
+.head {
+  width: 100%;
+  height: 21px;
+  margin-left: 120px;
+}
+
+.head span {
+  color: #8a779d;
+}
+
+.head a {
+  color: #333333;
+}
+
+.head .right {
+  float: right;
+  margin-right: 200px;
+  height: 25px;
+}
+
+.head .right a {
+  padding-right: 10px;
+  margin-left: 10px;
+  line-height: 25px;
+  border-right: 1px solid #d3ccd3;
+}
+
+.head .right img {
+  vertical-align: middle;
+  margin-left: 65x;
+  margin-right: 5px;
+}
+
+.head .right span {
+  padding-right: 10px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+
+.content {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 120px;
+  overflow: hidden;
+}
+
+.content img {
+  float: left;
+}
+
+.content .C {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.content .C .S {
+  width: 540px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #fc595a;
+  float: left;
+}
+
+.content .C .S input {
+  width: 460px;
+  height: 32px;
+  padding: 0px 5px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+.content .C .S button {
+  width: 65px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #fc595a;
+  border: none;
+}
+
+.content .hotS {
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.content .hotS span {
+  font-size: 14px;
+}
+
+.content .connection {
+  width: 300px;
+  height: 84px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.content .connection span {
+  background-color: #f7f7f7;
+  color: #616161;
+  padding: 5px 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 35px;
+  margin-left: 120px;
+}
+
+.nav .leader {
+  width: 200px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  background-color: #b1191b;
+}
+
+.nav .isolation {
+  float: left;
+}
+
+.nav .isolation span {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.nav .isolation img {
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.nav .isolation .active {
+  color: #f13031;
+}
+
+.nav {
+  width: 100%;
+  height: 35px;
+  margin-left: 120px;
+}
+
+.nav .leader {
+  width: 200px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  background-color: #b1191b;
+}
+
+.nav .isolation {
+  float: left;
+}
+
+.nav .isolation span {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.nav .isolation img {
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.nav .isolation .active {
+  color: #f13031;
+}
+
+.enter {
+  width: 1000px;
+  height: 500px;
+  border: 1px #d3d3d3 solid;
+  margin: 10px 200px;
+  position: relative;
+}
+
+.enter .baby {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+.enter .verification {
+  width: 330px;
+  height: 265px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px #d3d3d3 solid;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+}
+
+.enter span {
+  font-size: 18px;
+  color: #666666;
+}
+
+.enter span:nth-child(2) {
+  float: right;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.enter span:nth-child(2) i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  color: white;
+  text-align: center;
+  line-height: 14px;
+  border-radius: 50%;
+  background-color: #e4373b;
+}
+
+.enter span:nth-of-type(3) {
+  font-size: 14px;
+  float: right;
+}
+
+.enter span:nth-of-type(4) {
+  color: #000000;
+  font-size: 14px;
+}
+
+.enter span:nth-of-type(5), .enter span:nth-of-type(6) {
+  font-size: 14px;
+}
+
+.enter .import {
+  width: 287px;
+  height: 40px;
+  margin: 10px 0px;
+  border: 1px #bdbdbd solid;
+}
+
+.enter .import img {
+  height: 100%;
+  float: left;
+}
+
+.enter .import input {
+  width: 235px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 10px;
+  background-color: #faffbd;
+  border: none;
+  outline: none;
+  float: left;
+}
+
+.enter .gogo {
+  width: 287px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #e4393c;
+  border: none;
+  margin: 10px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.service {
+  width: 1200px;
+  height: 350px;
+  border: 1px #bdbdbd solid;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service .choice {
+  width: 140px;
+  height: 100%;
+}
+
+.service .choice .TopS {
+  color: #bebebe;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  border-bottom: 1px #e3e3e3 solid;
+}
+
+.service .choice p {
+  color: #929292;
+  padding-left: 15px;
+}
+
+.service .choice p span {
+  font-size: 30px;
+}
+
+.service .choice img {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.useless {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.foot {
+  width: 1080px;
+  margin: 50px 165px;
+}
+
+.foot .rubbish {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.foot .rubbish span {
+  display: block;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  border-right: 1px black solid;
+}
+
+.foot .rubbish span:nth-last-of-type(1) {
+  border: none;
+}
+
+.foot .rubbish:nth-last-of-type(1) {
+  color: #bdbdbd;
+  font-size: 14px;
+}

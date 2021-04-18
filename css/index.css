@@ -1,0 +1,599 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 1536px;
+  background-color: #ffffff;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.box {
+  width: 100%;
+}
+
+.box ul,
+.box li {
+  list-style: none;
+}
+
+.head {
+  width: 100%;
+  height: 21px;
+  margin-left: 120px;
+}
+
+.head span {
+  color: #8a779d;
+}
+
+.head a {
+  color: #333333;
+}
+
+.head .right {
+  float: right;
+  margin-right: 200px;
+  height: 25px;
+}
+
+.head .right a {
+  padding-right: 10px;
+  margin-left: 10px;
+  line-height: 25px;
+  border-right: 1px solid #d3ccd3;
+}
+
+.head .right img {
+  vertical-align: middle;
+  margin-left: 65x;
+  margin-right: 5px;
+}
+
+.head .right span {
+  padding-right: 10px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+
+.content {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 120px;
+  overflow: hidden;
+}
+
+.content img {
+  float: left;
+}
+
+.content .C {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.content .C .S {
+  width: 540px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #fc595a;
+  float: left;
+}
+
+.content .C .S input {
+  width: 460px;
+  height: 32px;
+  padding: 0px 5px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+.content .C .S button {
+  width: 65px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #fc595a;
+  border: none;
+}
+
+.content .hotS {
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.content .hotS span {
+  font-size: 14px;
+}
+
+.content .connection {
+  width: 300px;
+  height: 84px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.content .connection span {
+  background-color: #f7f7f7;
+  color: #616161;
+  padding: 5px 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 35px;
+  margin-left: 120px;
+}
+
+.nav .leader {
+  width: 200px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  background-color: #b1191b;
+}
+
+.nav .isolation {
+  float: left;
+}
+
+.nav .isolation span {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.nav .isolation img {
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.nav .isolation .active {
+  color: #f13031;
+}
+
+.line {
+  width: 100vw;
+  height: 3px;
+  background-color: #b1191b;
+}
+
+.Powerful {
+  width: 100%;
+  margin-left: 120px;
+  background-color: skyblue;
+  overflow: hidden;
+  position: relative;
+}
+
+.Powerful .navigation {
+  width: 200px;
+  cursor: pointer;
+  background-color: #c81622;
+  float: left;
+}
+
+.Powerful .navigation .classify {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.Powerful .navigation .classify span {
+  display: block;
+  color: white;
+  padding-top: 5px;
+  padding-left: 50px;
+}
+
+.Powerful .navigation .classify i {
+  position: absolute;
+  color: white;
+  top: 5px;
+  right: 10px;
+}
+
+.Powerful .navigation .classify p {
+  color: white;
+  font-size: 13px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+}
+
+.Powerful .navigation .active1 {
+  background-color: #b1191b;
+}
+
+.Powerful .conceal {
+  width: 800px;
+  height: 400px;
+  background-color: yellowgreen;
+  border: 2px #ec2e2e solid;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  display: none;
+  z-index: 1;
+}
+
+.Powerful .conceal .list {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 400px;
+  display: none;
+}
+
+.Powerful .conceal .show {
+  display: block;
+}
+
+.Powerful #loopDiv {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+
+.Powerful #loopDiv #pic {
+  width: 100%;
+  height: 100%;
+}
+
+.Powerful #loopDiv #list {
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  left: 300px;
+  color: skyblue;
+}
+
+.Powerful #loopDiv #list li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: skyblue;
+  margin-right: 10px;
+}
+
+.Powerful #loopDiv .chooseBut {
+  width: 50px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  display: none;
+  position: absolute;
+}
+
+.Powerful #loopDiv #left {
+  left: 0px;
+  top: 130px;
+}
+
+.Powerful #loopDiv #right {
+  right: 0px;
+  top: 130px;
+}
+
+.Powerful .newslist {
+  width: 300px;
+  height: 428px;
+  float: left;
+  border: 1px #dddddd solid;
+  background-color: #ededed;
+  position: relative;
+}
+
+.Powerful .kuang {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.Powerful .news {
+  width: 100%;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.Powerful .news p {
+  color: #6b6b6b;
+  margin-bottom: 10px;
+}
+
+.Powerful .news .newschildren {
+  color: #b3b2b2;
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.Powerful .news .leader2 {
+  color: red;
+}
+
+.Powerful .dots {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Powerful .dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: #5a5a5a;
+}
+
+.Powerful .dots .dedede {
+  background-color: #dedede;
+}
+
+.Powerful .advertising {
+  width: 100%;
+  height: 158px;
+  background-color: yellowgreen;
+}
+
+.cut {
+  width: 1110px;
+  height: 100px;
+  border: 1px solid #cccccc;
+  margin-top: 10px;
+  margin-left: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cut .cutmove {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+
+.cut .cutmove .product {
+  width: 250px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.cut span {
+  width: 30px;
+  height: 50px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #b2b0b2;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.cut span:nth-of-type(1) {
+  top: 30px;
+  left: 0px;
+}
+
+.cut span:nth-of-type(2) {
+  top: 30px;
+  right: 0px;
+}
+
+.coproduct {
+  width: 850px;
+  height: 500px;
+  border: 1px solid #cccccc;
+  margin-top: 50px;
+  margin-left: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.coproduct .coproductmove {
+  width: 850px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  left: 0px;
+}
+
+.coproduct .coproductmove .prodcut2 {
+  width: 205px;
+  height: 250px;
+  text-align: center;
+  line-height: 250px;
+  background-color: cadetblue;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+}
+
+.coproduct span {
+  width: 30px;
+  height: 50px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #b2b0b2;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.coproduct .SecondL {
+  text-align: left;
+  top: 225px;
+  left: 0px;
+  border-radius: 0% 50px 50px 0%;
+}
+
+.coproduct .SecondR {
+  text-align: right;
+  top: 225px;
+  right: 0px;
+  border-radius: 50px 0% 0% 50px;
+}
+
+.advertising_board {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.exhibition {
+  width: 1200px;
+  border: 1px cadetblue solid;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.exhibition .electorate {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.exhibition .electorate .Left_section {
+  width: 150px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exhibition .electorate .Left_section span {
+  width: 50%;
+  height: 35px;
+  padding: 5px;
+  border: 1px yellowgreen solid;
+  box-sizing: border-box;
+}
+
+.exhibition .electorate .Left_section .spot {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 60px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exhibition .electorate .Left_section .spot i {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #999999;
+}
+
+.exhibition .Mid_section {
+  width: 240px;
+  height: 10px;
+  position: absolute;
+  left: 170px;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exhibition .Mid_section span {
+  display: block;
+  width: 75px;
+  background: #ceb9be;
+}
+
+.exhibition .Mid_section .active2 {
+  background-color: #feecea;
+}
+
+.exhibition .Right_section {
+  width: 750px;
+  height: 100%;
+  border: 1px red solid;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.exhibition .Right_section .top {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  border-bottom: 3px #d0d0d0 solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.exhibition .Right_section span {
+  padding: 12px 10px;
+  text-align: center;
+  color: #555555;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.exhibition .Right_section .active3 {
+  color: #e4393c;
+  border-bottom: 3px #e4393c solid;
+}
+
+.exhibition .Right_section i {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #e4393c;
+  border-right: 10px solid transparent;
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+  margin-bottom: -1px;
+}
