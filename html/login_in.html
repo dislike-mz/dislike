@@ -64,7 +64,7 @@
             </div>
         </div>
         <!-- 登陆部份 -->
-        <form class="enter">
+        <form class="enter" action="../php/login_in.php" method="POST">
             <img class="baby" src="../images/baby.png
                 " alt="">
 
@@ -72,12 +72,12 @@
                 <span>商城会员</span>
                 <a href="../html/register.html"><span><i>&gt;</i>立即注册</span></a>
                 <div class="import">
-                    <img src="../images/person.png" alt="">
-                    <input type="text">
+                    <img  src="../images/person.png" alt="">
+                    <input id="userid" type="text">
                 </div>
                 <div class="import">
                     <img src="../images/personword.png" alt="">
-                    <input type="password">
+                    <input id="userpas" type="password">
                 </div>
                 <span>忘记密码？</span><br>
                 <button class="gogo">登录</button><br>
@@ -150,6 +150,8 @@
         </div>
 
     </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login_in.js"></script>
 </body>
 
 </html>
